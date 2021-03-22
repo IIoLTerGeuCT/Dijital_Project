@@ -1,0 +1,25 @@
+.menu {
+  display: flex;
+  align-items: center;
+  list-style: none;
+  padding-right: 135px;
+}
+
+.menu__item {
+  text-transform: uppercase;
+
+  &:not(:last-child) {
+    margin-right: 60px;
+  }
+
+  &:hover {
+    border-top: 1px solid #000;
+    border-bottom: 1px solid #000;
+  }
+}
+
+.menu__link {
+  color: #333333;
+  padding: 4px 0;
+  text-decoration: none;
+}
