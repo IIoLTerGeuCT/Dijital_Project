@@ -1,15 +1,21 @@
 //- TODO
 .slider
+  //-
   .slider__meta
-    .slider__title
-      h1.title project
-      h1.subtitle nurtown
+    .slider__text
+      h2.slider__title
+        | project
+        span nurtown
+
     .slider__controls
-      button.left
+      button.slider__prev
         img(src="images/main__container/left-ico.svg", alt="img")
-      button.right
+      button.slider__next
         img(src="images/main__container/right-ico.svg", alt="img")
     .slider__pagenation
+      //-
+  //-
   .slider__content
-    img(class="nurtown_img" src="images/main__container/imageProject.png", alt="img")
-    a(href="javascript:;") взглянуть
+    .slider__slide
+      img(class="nurtown_img" src="images/main__container/imageProject.png", alt="img")
+    a.slider__look(href="javascript:;") взглянуть -->

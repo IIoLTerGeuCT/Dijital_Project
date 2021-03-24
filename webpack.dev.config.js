@@ -21,9 +21,9 @@ const historyApiFallbackRewritesGenerator = () => {
 // ===============================================
 
 const devConfig = merge(baseConfig, {
-  target: "web", // fix hot reload
   devtool: 'source-map',
   mode: 'development',
+  target: "web", // fix hot reload
   devServer: {
     // historyApiFallback: true,
     historyApiFallback: {

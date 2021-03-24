@@ -1,14 +1,50 @@
-.title {
-  font-style: normal;
+.slider {
+  display: flex;
+}
+
+//
+.slider__text {
+  text-transform: uppercase;
+}
+
+.slider__title {
   font-weight: 300;
   font-size: 64px;
-  line-height: 64px;
+  line-height: 1em;
   color: #BDBDBD;
+
+  span {
+    display: block;
+    font-weight: bold;
+    color: #333333;
+  }
 }
-.subtitle {
-  font-style: normal;
-  font-weight: bold;
-  font-size: 64px;
-  line-height: 64px;
-  color: #333333;
+
+//
+.slider__content {
+  position: relative;
+}
+
+.slider__slide {
+  width: 100%;
+  height: 100%;
+
+  img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+}
+
+.slider__look {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  width: 222px;
+  height: 71px;
+  background: #fff;
+  position: absolute;
+  bottom: 0;
 }
