@@ -10,11 +10,10 @@ import "../styles/fonts/TTHoves.scss";
 // models styles
 import "../styles/models/logo.scss";
 import "../styles/models/menu.scss";
-import "../styles/models/nurtown_project/right.scss";
-import "../styles/models/nurtown_project/left.scss";
+import "../styles/models/slider.scss";
 
 // views styles
 import "../styles/views/header.scss";
-import "../styles/views/nurtown_project.scss";
+// import "../styles/views/slider.scss";
 
 // pages styles
