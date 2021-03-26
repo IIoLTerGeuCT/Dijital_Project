@@ -1,6 +1,11 @@
 .slider {
   display: flex;
 }
+.slider__meta {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
 
 //
 .slider__text {
@@ -47,4 +52,43 @@
   background: #fff;
   position: absolute;
   bottom: 0;
+  color: #333333;
 }
+.slider__controls {
+  .slider__prev{
+    margin-right: 20px;
+  }
+  & button {
+    height: 53px;
+    width: 53px;
+    border: 1px solid #F2F2F2;
+  }
+  & button:first-child{
+    background-color: #FFFFFF;
+  }
+
+
+}
+.slider__pagenation {
+  display: flex;
+  width: 141px;
+  height: 31px;
+}
+.line {
+  height: 43.82px;
+  transform: rotate(45deg);
+  // transform: translateX(5px);
+  margin: 0 auto;
+}
+.slider__pagenation h3{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 24px;
+    color: #BDBDBD;
+
+    &:not(:last-child) {
+    margin-right: 60px;
+  }
+  }
+
