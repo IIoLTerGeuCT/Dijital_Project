@@ -14,6 +14,7 @@ import "../styles/models/menu.scss";
 import "../styles/models/slider.scss";
 import "../styles/models/info-company.scss";
 import "../styles/models/task.scss";
+import "../styles/models/project.scss";
 
 // views styles
 import "../styles/views/header.scss";
