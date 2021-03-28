@@ -11,6 +11,7 @@ import "../styles/fonts/TTHoves.scss";
 import "../styles/models/logo.scss";
 import "../styles/models/menu.scss";
 import "../styles/models/slider.scss";
+import "../styles/models/info-company.scss";
 
 // views styles
 import "../styles/views/header.scss";
