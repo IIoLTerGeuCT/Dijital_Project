@@ -5,8 +5,13 @@ block variables
 
 block content
   .container
-    //- сюда подключай вьюхи контента (О компании, Наши проекты и так далее)
-    include ../views/slider
-    include ../views/info-company
-    include ../views/task
-    include ../views/project
+    include ../models/slider
+    include ../models/info-company
+    include ../models/task
+    include ../models/project
+
+    //- ПЕРЕРАБОТАТЬ ВСЕ ЗАГОЛОВКИ
+    //- h1 - единственный на странице
+    //- h2 - заглавие секции
+    //- h3 - заглавие блока в секции
+    //- и так далее

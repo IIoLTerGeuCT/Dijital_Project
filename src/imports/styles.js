@@ -9,15 +9,12 @@ import "../styles/fonts/sf-pro-display.scss";
 // layouts styles
 
 // models styles
+import "../styles/models/header.scss";
 import "../styles/models/logo.scss";
 import "../styles/models/menu.scss";
 import "../styles/models/slider.scss";
 import "../styles/models/info-company.scss";
 import "../styles/models/task.scss";
 import "../styles/models/project.scss";
-
-// views styles
-import "../styles/views/header.scss";
-// import "../styles/views/slider.scss";
 
 // pages styles

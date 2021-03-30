@@ -21,35 +21,37 @@
   align-items: center;
 }
 
-.task__first {
-  display: flex;
-  height: 144px;
-  width: 413px;
-  align-items: center;
-}
-.task__second {
-  display: flex;
-  height: 144px;
-  width: 570px;
-  align-items: center;
-}
-.common h1 {
-  font-family: 'SF Pro Display';
-  font-style: normal;
-  font-weight: 900;
-  font-size: 200px;
-  line-height: 239px;
-  display: flex;
-  align-items: center;
-  color: #F2F2F2;
-  margin-right: 20px;
-}
-.common p {
-  height: 100%;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 22px;
-  line-height: 36px;
-  color: #333333;
-}
+.task__item {
 
+  &--first {
+    display: flex;
+    height: 144px;
+    width: 413px;
+    align-items: center;
+  }
+  &--second {
+    display: flex;
+    height: 144px;
+    width: 570px;
+    align-items: center;
+  }
+  h1 {
+    font-family: 'SF Pro Display';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 200px;
+    line-height: 239px;
+    display: flex;
+    align-items: center;
+    color: #F2F2F2;
+    margin-right: 20px;
+  }
+  p {
+    height: 100%;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 36px;
+    color: #333333;
+  }
+}
