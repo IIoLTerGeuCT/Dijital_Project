@@ -32,3 +32,4 @@ EditorConfig
 путь к папке images: ~img
 путь к папке fonts: ~fonts
 ```
+тестирование merge
